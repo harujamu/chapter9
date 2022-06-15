@@ -10,14 +10,11 @@ header{
 }
 
 main{
-  margin:50px 0px;
-}
-
-.main-container{
+  margin:50px auto;
   width:960px;
   display:flex;
-  margin:0 auto;
 }
+
 
 .contents{
   width:300px;
@@ -25,6 +22,12 @@ main{
   padding:10px;
   position:relative;
 }
+
+
+.contents:nth-child(2){
+  margin:0 30px;
+}
+
 
 
 .step p{
@@ -35,14 +38,9 @@ main{
   left:0px;
 }
 
-
-h3{
-  margin-top:15px;
-  margin-bottom:5px;
-}
-
-.contents2{
-  margin:0 30px;
+.title{
+  padding-top:15px;
+  padding-bottom:5px;
 }
 
 .image1{
